@@ -109,7 +109,7 @@ Options:
 
 
 #### Exercise question:
-*Open ended question: Which state has the highest claim count and how many claims made in that state? *
+*Open ended question: Which state has the highest claim count and how many claims made in that state?*
 
 *Answer: California, 49*
 
