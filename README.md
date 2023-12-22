@@ -17,7 +17,6 @@ Screencasts are used in business intelligence (BI) or Alteryx courses to demonst
 
 - [ ] Upload your screencast to your platform of choice (e.g., Dropbox, Google Drive) and paste the link here:
 - [Screencast of Lesson 1.1 Left and Right Joins](https://drive.google.com/file/d/1tuJg6H1RL51t_yKx-P7oEuTjFelvDpI9/view?usp=sharing)
-- [Screencast of Lesson 1.1 Left and Right Joins](https://campus.datacamp.com/courses/analyzing-data-in-tableau/mapping-analysis?ex=2)
 
 ### Step 2: Virtual Machine Exercises
 
