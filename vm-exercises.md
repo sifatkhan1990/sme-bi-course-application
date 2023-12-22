@@ -92,13 +92,13 @@ Options:
     * For Right table for merge*, choose `Client`.
     * Then, select `Client_ID` in both `Insurance claim` and `Client`.
     * For Join kind*, choose Left and then, OK.
-    * Ensure `Address_ID` is visible.
+    * Ensure `Address_ID` from `Client` is visible.
 - Step 4: 
     * Select Combine > Merge queries.
     * For Right table for merge*, choose `Address`.
     * Then, select `Address_ID` in both `Client` and `Address`.
     * For Join kind*, choose Left and then, OK.
-    * Ensure `State` is visible.
+    * Ensure `State` from `Address` is visible.
 - Step 5: 
     * Select `Claim_ID` and `State`. 
     * Select Transform > Group by.
