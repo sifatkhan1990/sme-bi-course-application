@@ -42,7 +42,7 @@
     * Click Close & Load.
 
 #### Exercise question:
-*Multiple choice question: How many customers are affected by loss of claim records? 
+*Multiple choice question: How many customers are affected by loss of claim records?* 
 
 Options:
 1. 232
@@ -50,7 +50,7 @@ Options:
 3. 234
 4. 235
 
-Answer: Option 2. (i.e. 233 customers)*
+*Answer: Option 2. (i.e. 233 customers)*
 
 #### End goal:
 
