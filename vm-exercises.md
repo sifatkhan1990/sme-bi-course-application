@@ -18,27 +18,41 @@
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+*The exercise assesses the learner’s ability to successfully apply right anti join in power query*
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+**Customers affected due to data loss**
+*Your boss just informed you that some claim records were accidentally erased during migration of data to cloud. As a result, there is a risk of complaints from customers if their claims were not addressed on time. Hence, you need to quickly update your boss which customers are impacted and how many of them in total. This will allow him to check in with these affected customers and ensure their needs are met.*
 
 #### Steps to be executed by the student (max 6)
 
 *Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- Step 1
-- Step 2
-- Step 3
-- ...
+- * Step 1: 
+    * Keep only `Client_ID` from `Insurance claim` & only `Client_ID`, `first_name`, `last_name` from `Client`.
+    * Ensure the `Insurance Claim` is selected.
+- * Step 2: 
+    * Select Combine > Merge queries
+    * For Right table for merge*, choose `Client`.
+    * Then, select `Client_ID` in both `Insurance claim` and `Client`.
+    * For Join kind*, choose Right anti and then, OK.
+- * Step 3:
+    * Ensure all columns selected from` Client` in Step 1 is visible in `Insurance claim`.
+    * Click Close & Load.
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+*Multiple choice question: How many customers are affected by loss of claim records? 
+Options:
+1. 232
+2. 233 
+3. 234
+4. 235
+Answer: Option 2. (i.e. 233 customers)*
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+*![Screenshot of my final solution](https://example.com/images/my-app-screenshot.png)*
 
 ## 2nd VM Exercise
 
