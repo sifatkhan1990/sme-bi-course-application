@@ -39,7 +39,7 @@
     * Then, select `Client_ID` in both `Insurance claim` and `Client`.
     * For Join kind*, choose Right anti and then, OK.
 - Step 3:
-    * Ensure all columns selected from` Client` in Step 1 is visible in `Insurance claim`.
+    * Ensure all columns selected from `Client` in Step 1 is visible in `Insurance claim`.
     * Click Close & Load.
 
 #### Exercise question:
