@@ -23,6 +23,7 @@
 #### Context
 
 **Customers affected due to data loss**
+
 *Your boss just informed you that some claim records were accidentally erased during migration of data to cloud. As a result, there is a risk of complaints from customers if their claims were not addressed on time. Hence, you need to quickly update your boss which customers are impacted and how many of them in total. This will allow him to check in with these affected customers and ensure their needs are met.*
 
 #### Steps to be executed by the student (max 6)
