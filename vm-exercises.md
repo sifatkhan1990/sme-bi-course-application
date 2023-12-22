@@ -29,30 +29,32 @@
 
 *Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- * Step 1: 
+- Step 1: 
     * Keep only `Client_ID` from `Insurance claim` & only `Client_ID`, `first_name`, `last_name` from `Client`.
     * Ensure the `Insurance Claim` is selected.
-- * Step 2: 
+- Step 2: 
     * Select Combine > Merge queries
     * For Right table for merge*, choose `Client`.
     * Then, select `Client_ID` in both `Insurance claim` and `Client`.
     * For Join kind*, choose Right anti and then, OK.
-- * Step 3:
+- Step 3:
     * Ensure all columns selected from` Client` in Step 1 is visible in `Insurance claim`.
     * Click Close & Load.
 
 #### Exercise question:
 *Multiple choice question: How many customers are affected by loss of claim records? 
+
 Options:
 1. 232
 2. 233 
 3. 234
 4. 235
+
 Answer: Option 2. (i.e. 233 customers)*
 
 #### End goal:
 
-*![Screenshot of my final solution](https://example.com/images/my-app-screenshot.png)*
+*![Screenshot of the final solution](exercises/ex-1-end-goal.png)*
 
 ## 2nd VM Exercise
 
