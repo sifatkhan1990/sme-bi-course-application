@@ -32,7 +32,7 @@
 
 - Step 1: 
     * Keep only `Client_ID` from `Insurance claim` & only `Client_ID`, `first_name`, `last_name` from `Client`.
-    * Ensure the `Insurance Claim` is selected.
+    * Ensure the Insurance Claim is selected for merge operations in the subsequent step.
 - Step 2: 
     * Select Combine > Merge queries.
     * For Right table for merge*, choose `Client`.
