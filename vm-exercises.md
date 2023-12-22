@@ -28,7 +28,7 @@
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
+*Each bulleted instruction is a set of complete sentences that describe a specific task.*
 
 - Step 1: 
     * Keep only `Client_ID` from `Insurance claim` & only `Client_ID`, `first_name`, `last_name` from `Client`.
@@ -80,7 +80,7 @@ Options:
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
+*Each bulleted instruction is a set of complete sentences that describe a specific task.*
 
 - Step 1:
     * Apply filter `Clm Amt` > 1000 in `Insurance claim`.
