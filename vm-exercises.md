@@ -70,25 +70,50 @@ Options:
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+*The exercise assesses the learner’s ability to successfully apply left join in power query*
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+**Risky states receiving high number of claims**
+
+*The business is becoming increasingly concerned with the rising frequency of claim requests as it risks higher payouts and hence, lower profitability. To better understand the underlying reason behind this trend, you are tasked to identify risky states which are experiencing highest volumes of claim requests with claim request > 1000 USD per claim. This insight will help the business prioritise those states for investigation and manage risks.*
 
 #### Steps to be executed by the student (max 6)
 
 *Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- Step 1
-- Step 2
-- Step 3
-- ...
+- Step 1:
+    * Apply filter `Clm Amt` > 1000 in `Insurance claim`.
+- Step 2: 
+    * Keep only `Claim_ID`, `Client_ID` from `Insurance claim`, only `Client_ID`, `Address_ID` from `Client` and only `Address_ID`, `State` from `Address`.
+    * Ensure the `Insurance Claim` is selected for merge operations in the subsequent steps.
+- Step 3: 
+    * Select Combine > Merge queries.
+    * For Right table for merge*, choose `Client`.
+    * Then, select `Client_ID` in both `Insurance claim` and `Client`.
+    * For Join kind*, choose Left and then, OK.
+    * Ensure `Address_ID` is visible.
+- Step 4: 
+    * Select Combine > Merge queries.
+    * For Right table for merge*, choose `Address`.
+    * Then, select `Address_ID` in both `Client` and `Address`.
+    * For Join kind*, choose Left and then, OK.
+    * Ensure `State` is visible.
+- Step 5: 
+    * Select `Claim_ID` and `State`. 
+    * Select Transform > Group by.
+    * Set `State` for Group by, `Claim Count` for New column name*, Count rows for Operations* and then, OK. 
+    * Sort `Claim Count` in descending order.
+- Step 6:
+    * Click Home > Close & Load.
+
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+*Open ended answer: Which state has the highest claim count and how many claims made in that state? *
+
+*Answer: California, 49*
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+*![Screenshot of the final solution 2](exercises/ex-2-end-goal.png)*
 
